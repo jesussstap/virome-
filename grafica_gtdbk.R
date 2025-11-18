@@ -13,9 +13,9 @@ library(stringr)
 # -------------------------
 # 1. Carpeta con archivos GTDB-Tk
 # -------------------------
-ruta_carpeta <- "/home/jesus/CH_22/galaxy_downloads/gtdb"
-ruta_carpeta_egg <-"/home/jesus/CH_22/galaxy_downloads/eggnog Bins no virales, jesus1234"
-ko_list <- read_delim("/home/jesus/CH_22/metagenoma/ko_list.txt", delim = "\t", col_names = TRUE)
+ruta_carpeta <- "ruta"
+ruta_carpeta_egg <-"ruta"
+ko_list <- read_delim("ruta", delim = "\t", col_names = TRUE)
 
 archivos_tabular <- list.files(path = ruta_carpeta, pattern = "\\.tsv$", 
                                full.names = TRUE, recursive = TRUE)
