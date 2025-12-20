@@ -81,7 +81,7 @@ def main():
         # Paso 6: crear fasta bins
         run_command(f"python {create_fasta_script} {contigs_output} {vae_clusters} {min_bin_size} {vamb_outdir}")
 
-    print("\n🚀 Tamos ready.")
+    print("\n🚀  Listo.")
 
 if __name__ == "__main__":
     main()
