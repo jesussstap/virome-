@@ -12,9 +12,9 @@ def run_command(cmd):
         
 def main():
     # Rutas a scripts
-    concatenate_script = "/home/jesus/vamb/src/concatenate.py"
-    merge_aemb_script = "/home/jesus/vamb/src/merge_aemb.py"
-    create_fasta_script = "/home/jesus/vamb/src/create_fasta.py"
+    concatenate_script = "~/vamb/src/concatenate.py"
+    merge_aemb_script = "~/vamb/src/merge_aemb.py"
+    create_fasta_script = "/vamb/src/create_fasta.py"
 
     # Directorios
     contig_dir = "/home/jesus/CH_22/metagenoma/ensamble_prueba"
