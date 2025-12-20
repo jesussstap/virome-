@@ -28,9 +28,9 @@ def main():
     if len(contig_files) == 0:
         raise Exception(f"No se encontraron archivos fasta en {contig_dir}")
     try:
-        min_bin_size = int(input("🧱 Ingrese el tamaño mínimo de bin en pb (ej: 6000): "))
+        min_bin_size = int(input("Ingrese el tamaño mínimo de bin en pb (ej: 6000): "))
     except ValueError:
-        raise Exception("❌ Debes ingresar un número entero válido para min_bin_size.")
+        raise Exception("Debes ingresar un número entero válido para min_bin_size.")
 
     for contig in contig_files:
         sample_name = os.path.basename(contig).replace(".fasta", "")
